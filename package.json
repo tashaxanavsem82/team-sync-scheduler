@@ -27,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://your-repo-url.git"
+  },
+  "engines": {
+    "node": "^14.0.0"
   }
 }
