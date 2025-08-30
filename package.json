@@ -1,0 +1,27 @@
+{
+  "name": "team-sync-scheduler",
+  "version": "1.0.0",
+  "description": "A web application that helps teams schedule sync meetings by finding the best time slots available for all members.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client:start": "npm start --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "concurrently "npm run server" "npm run client:start""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "keywords": ["scheduling", "meetings", "collaboration", "team"],
+  "author": "Your Name",
+  "license": "MIT"
+}
