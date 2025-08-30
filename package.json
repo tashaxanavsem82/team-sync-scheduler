@@ -23,5 +23,9 @@
   },
   "keywords": ["scheduling", "meetings", "collaboration", "team"],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://your-repo-url.git"
+  }
 }
