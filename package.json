@@ -22,11 +22,11 @@
     "nodemon": "^2.0.4"
   },
   "keywords": ["scheduling", "meetings", "collaboration", "team"],
-  "author": "Updated Author Name",
+  "author": "Your Updated Author Name",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://your-repo-url.git"
+    "url": "git+https://github.com/yourusername/team-sync-scheduler.git"
   },
   "engines": {
     "node": "^14.0.0"
