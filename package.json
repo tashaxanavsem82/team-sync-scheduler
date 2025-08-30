@@ -1,7 +1,7 @@
 {
   "name": "team-sync-scheduler",
   "version": "1.0.0",
-  "description": "A web application that helps teams schedule sync meetings by finding the best time slots available for all members.",
+  "description": "A web application that assists teams in scheduling sync meetings by identifying optimal time slots available for all members.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
