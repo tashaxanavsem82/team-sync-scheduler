@@ -16,6 +16,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 // Connect to MongoDB using MONGODB_URI from environment variables
+// Using { useNewUrlParser: true, useUnifiedTopology: true } to avoid deprecation warnings
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
